@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MarketPlace.Entities.Catagory">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Advertisement\Catagory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarketPlace.Entities.SubCatagory" Collapsed="true">
+    <Position X="10.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Advertisement\SubCatagory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarketPlace.Entities.Address">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Common\Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarketPlace.Entities.City">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\City.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Addresses" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MarketPlace.Entities.Country">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Country.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Cities" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MarketPlace.Entities.Seller">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Users\Seller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Advertisements" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MarketPlace.Entities.Common.User">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAEAAACAAAAADAAAAQAAAAAAAAAADAQAAAAAAAAg=</HashCode>
+      <FileName>Users\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarketPlace.Entities.Oders.Order">
+    <Position X="13.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAIAAAQAAAAAAACAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Oders\Order.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Advertisiment" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MarketPlace.Entities.Users.Buyer">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Users\Buyer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarketPlace.Entities.Common.Advertisiment">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQABAEABAACAAAAAAAAAABAAAAAAAAAACAA=</HashCode>
+      <FileName>Advertisement\Advertisiment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="14.75" Y="3" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
